@@ -1,6 +1,9 @@
 /**
- * Print "Hello UMUC!" to standard output.
- */
+ * File Name   : HelloUMUC.java
+ * Author      : Justin Luce
+ * Created on  : 24 June 2017
+ * Description : Displays "Hello Justin!" to the user
+ **/
 
 public class HelloUMUC 
 {
