@@ -2,7 +2,8 @@
  * File Name   : OperatorsDemo.java
  * Author      : Justin Luce
  * Created on  : 24-06-2017
- * Description : This will use multiple operators and provide the expected output for simple and complex Java statements
+ * Description : This will use multiple operators and provide the expected 
+ * 	             output for simple and complex Java statements
  **/
 
 public class OperatorsDemo 
@@ -14,7 +15,7 @@ public class OperatorsDemo
 		
 		// Place holders to store calculation
 		double results = 0.0;
-		int intresults = 0;
+		int intResults = 0;
 		
 		// Addition (+)
 		results = 4.1 + 8.1;
@@ -41,10 +42,10 @@ public class OperatorsDemo
 		System.out.println("4.1 / 10.5 = " + results);
 		
 		// Modulus (%)
-		intresults = 20 % 3;
-		System.out.println("20 % 3 = " + intresults);
-		intresults = 20 % 5;
-		System.out.println("20 % 5 = " + intresults);
+		intResults = 20 % 3;
+		System.out.println("20 % 3 = " + intResults);
+		intResults = 20 % 5;
+		System.out.println("20 % 5 = " + intResults);
 		
 		// Precedence groupings
 		System.out.println("\n");    // New Line to separate Output
@@ -68,20 +69,20 @@ public class OperatorsDemo
 		int varD = 10;
 		
 		// Post Increment (++)
-		intresults = varA++;
-		System.out.println("varA++ = " + intresults);
+		intResults = varA++;
+		System.out.println("varA++ = " + intResults);
 		
 		// Pre increment (++)
-		intresults = ++varB;
-		System.out.println("++varB = " + intresults);
+		intResults = ++varB;
+		System.out.println("++varB = " + intResults);
 		
 		// Post decrement (--)
-		intresults = varC--;
-		System.out.println("varC-- = " + intresults);
+		intResults = varC--;
+		System.out.println("varC-- = " + intResults);
 		
 		// Pre decrement (--)
-		intresults = --varD;
-		System.out.println("--varD = " + intresults);
+		intResults = --varD;
+		System.out.println("--varD = " + intResults);
 		
 		// Not Operator (!)
 		// This should be true since 20 >= 3

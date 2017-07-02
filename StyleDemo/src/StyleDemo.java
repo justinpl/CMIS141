@@ -1,8 +1,9 @@
 /**
- * File Name   : StandardIODemo.java
+ * File Name   : StyleDemo.java
  * Author      : Justin Luce
- * Created on  : 29-06-2017
- * Description : Takes input from the user and displays it
+ * Created on  : 01-07-2017
+ * Description : This program demonstrates the use of Standard I/O classes 
+ * 				 including the BufferedReader and Scanner classes.
  **/
 
 // Import each required Java class
@@ -12,10 +13,10 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /**
- * Standard I/O Demo
+ * Style Demo
  */
 
-public class StandardIODemo 
+public class StyleDemo 
 {
     public static void main(String[] args) throws IOException
     { 
@@ -24,8 +25,9 @@ public class StandardIODemo
         double favDouble = 0.0;
         int secondfavInt = 0;
         double secondfavDouble = 0.0;
-        boolean myBoolean = false;
-        short myShort = 0;
+        boolean favBoolean = false;
+        short favShort = 0;
+        byte favByte = 0;
         
         // Define a InputStreamReader based on Standard Input (System.in)
         InputStreamReader isReader = new InputStreamReader(System.in);
@@ -64,24 +66,24 @@ public class StandardIODemo
         // Prompt the user to enter a boolean
         System.out.println("Enter your favorite boolean value:");
         // the nextBoolean() method scans the next boolean value
-        myBoolean = scannerIn.nextBoolean();
+        favBoolean = scannerIn.nextBoolean();
         
         // Prompt the user to enter a short
         System.out.println("Enter your favorite short value:");
         // the nextShort() method scans the next short value
-        myShort = scannerIn.nextShort();
+        favShort = scannerIn.nextShort();
         
         
         // Print the results to verify your data
         System.out.println("Your second favorite int is: " + secondfavInt);
         System.out.println("Your second favorite double is: " + secondfavDouble);
-        System.out.println("Your favorite boolean is: " + myBoolean);
-        System.out.println("Your favorite short is: " + myShort);
+        System.out.println("Your favorite boolean is: " + favBoolean);
+        System.out.println("Your favorite short is: " + favShort);
         
         // Prompt the user to enter a byte
         System.out.println("Enter your favorite byte value:");
         // the nextByte() method scans the next byte value
-        byte myByte = scannerIn.nextByte();
-        System.out.println("Your favorite byte is: " + myByte);
+        favByte = scannerIn.nextByte();
+        System.out.println("Your favorite byte is: " + favByte);
     }
 }
