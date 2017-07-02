@@ -29,9 +29,9 @@ public class RolePlayingGame
             String directionCapital = direction.toUpperCase().trim();
                     
             if ((directionCapital.equals("N")) ||
-                    (directionCapital.equals("E")) ||
-                    (directionCapital.equals("S")) ||
-                    (directionCapital.equals("W")));
+                (directionCapital.equals("E")) ||
+                (directionCapital.equals("S")) ||
+                (directionCapital.equals("W")));
             else
             {
                 System.out.println("Invalid Entry");
