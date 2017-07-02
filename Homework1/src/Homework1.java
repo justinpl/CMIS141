@@ -29,17 +29,18 @@ public class Homework1 {
         // Use the Scanner class to store variables
         System.out.println("Enter your Student EMPLID (0 - 999999): ");
         emplid = scannerIn.nextInt();
-        System.out.println("Enter your quiz1 percentage score (0.0 – 100.0): ");
+        System.out.println("Enter your quiz1 percentage score (0.0 - 100.0): ");
         quiz1 = scannerIn.nextFloat();
-        System.out.println("Enter your quiz2 percentage score (0.0 – 100.0): ");
+        System.out.println("Enter your quiz2 percentage score (0.0 - 100.0): ");
         quiz2 = scannerIn.nextFloat();
-        System.out.println("Enter your quiz3 percentage score (0.0 – 100.0): ");
+        System.out.println("Enter your quiz3 percentage score (0.0 - 100.0): ");
         quiz3 = scannerIn.nextFloat();
         System.out.println("Enter your age in months (0-1440): ");
         ageMonths = scannerIn.nextInt();
         System.out.println("Enter the current Temperature in degrees Celsius: ");
         temp = scannerIn.nextFloat();
         
+        // Print results
         System.out.println("\n*** Thank You ***");
         System.out.println("Student EMPLID: "+emplid);
         System.out.println("Quiz 1 Score: "+quiz1);
@@ -49,6 +50,9 @@ public class Homework1 {
         System.out.println("Age in months: "+ageMonths);
         System.out.println("Age in years: "+(ageMonths/12));
         System.out.println("Temperature in Celsius: "+temp+"°");
-        System.out.println("Temperature in Fahrenheit: "+(temp*1.8+32)+"°");        
+        System.out.println("Temperature in Fahrenheit: "+(temp*1.8+32)+"°");
+        
+        // close scannerIn
+        scannerIn.close();
     }
 }
