@@ -17,6 +17,7 @@ public class RolePlayingGame
         int yAxis = 0;
         
         System.out.println("Try to escape the labyrinth!");
+        
         while (true)
         {
             // Display a starting point
@@ -27,6 +28,8 @@ public class RolePlayingGame
             System.out.println("Enter the direction you wish to go: (N,E,S,W)");
             String direction =scanner.nextLine();
             String directionCapital = direction.toUpperCase().trim();
+            
+            scanner.close();
                     
             if ((directionCapital.equals("N")) ||
                 (directionCapital.equals("E")) ||
