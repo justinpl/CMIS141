@@ -52,5 +52,7 @@ public class MySelectionIfDemo
         System.out.println("Your income is $" + income);
         System.out.println("Your tax rate is " + tax + " percent");
         System.out.println("You owe $" + (income * tax) + " in taxes");
+        
+        scannerIn.close();
     }   
 }
