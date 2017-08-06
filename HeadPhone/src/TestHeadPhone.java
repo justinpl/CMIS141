@@ -21,5 +21,6 @@ public class TestHeadPhone {
         HeadPhone headPhone3 = new HeadPhone(1,true,"Samsung","800",40,40,40);
         // print changes
         System.out.println(headPhone3.toString());
+        System.out.println(headPhone.toString());
     }
 }
