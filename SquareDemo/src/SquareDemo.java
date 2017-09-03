@@ -10,7 +10,7 @@ public class SquareDemo
     // Hold number of objects
     private static int numSquares = 0;
     // Define class variable
-    private static double sideLength = 1.0;
+    private double sideLength = 1.0;
     
     // Constructors
     // Default constructor
@@ -20,25 +20,25 @@ public class SquareDemo
     }
     public SquareDemo(double s) 
     {        
-        SquareDemo.sideLength = s;  
+        this.sideLength = s;  
         numSquares++;
     }
     //Area Method
-    public static double getArea() 
+    public double getArea() 
     {
-        double area = Math.pow(sideLength, 2);
+        double area = Math.pow(this.sideLength, 2);
         return area;
     }
     // Perimeter method
-    public static double getPerimeter() 
+    public double getPerimeter() 
     {
-        double perimeter = sideLength * 4;
+        double perimeter = this.sideLength * 4;
         return perimeter;
     }
     // getter method
     public double getSideLength() 
     {
-        return SquareDemo.sideLength;
+        return this.sideLength;
     } 
   
     public static int getNumSquares() 
